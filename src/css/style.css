@@ -1,0 +1,40 @@
+#chart-area svg {
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#logo {
+	height:50px;
+}
+
+.navbar-brand {
+	height: 60px;
+	padding: 5px 0px;
+}
+
+
+.d3-tip {	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+#slide{
+    display: none;
+    position: absolute;
+    float: left;
+    height: 14px;
+    width: 200px;
+    top: 35px;
+    /*background-color: rgba(102, 102, 102, 0.90);*/
+    padding : 10px;
+    z-index: 2;
+}
